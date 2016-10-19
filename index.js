@@ -7,10 +7,10 @@ function generateReport (results) {
     var xml = '<?xml version="1.0" encoding="utf-8"?>';
     var output = '';
 
-    xml += '<lint>';
+    xml += '<checkstyle version="4.3">';		
 
     results.forEach(function (result) {
-        output = '\t<issue';
+        output = '\t<error';
         if (result.severity === 'error') {
             output += ' severity="error"';
         } else {
@@ -39,7 +39,7 @@ function generateReport (results) {
         xml += '</file>';
     });
 
-    xml += '</lint>';
+    xml += '</checkstyle>';
 
     fs.open("./reports/lesshint-report.xml", 'w+', function(err, data) {
         if (err) {
