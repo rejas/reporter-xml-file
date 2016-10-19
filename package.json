@@ -1,0 +1,33 @@
+{
+  "author": {
+      "name": "rejas",
+      "email": "github@veeck.de"
+  },
+  "bugs": {
+    "url": "https://github.com/rejas/reporter-xml-file/issues"
+  },
+  "dependencies": {},
+  "description": "Reporter for writing into an xml file.",
+  "devDependencies": {},
+  "homepage": "https://github.com/rejas/reporter-xml-file#readme",
+  "keywords": [
+    "lesshint",
+    "reporter",
+    "checkstyle"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "rejas",
+      "email": "github@veeck.de"
+    }
+  ],
+  "name": "reporter-xml-file",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rejas/reporter-xml-file.git"
+  },
+  "version": "0.0.1"
+}
